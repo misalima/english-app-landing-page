@@ -10,7 +10,7 @@ body {
 .title h1 {
     font-weight: 500;
     font-size: 3rem;
-    line-height: 1.4;
+    line-height: 1;
     margin-bottom: 50px;
     margin-top: 60px;
     
@@ -156,5 +156,32 @@ a {
     }
     .feature-box {
         margin-bottom: 5%;
+    }
+
+    .testimonials {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 448px) {
+    
+    .title h1 {
+        line-height: 1;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+
+    #download-btn {
+        margin-left: 0;
+    }
+
+    .cta h2 {
+        font-size: 2.5rem;
+    }
+    
+    .footer {
+        font-size: 0.8rem;
     }
 }
