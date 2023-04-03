@@ -1,0 +1,160 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    
+}
+.title {
+    background-color: #1266a5;
+    color: white;
+}
+
+.title h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    
+}
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+
+p {
+    color: #a3a3a3;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(149, 205, 238);
+}
+
+.container-fluid {
+    padding: 2% 15%;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+}
+
+.logo {
+    width: 30px;    
+}
+.nav-link {
+    margin: 0 10px;
+}
+
+.nav-link a {
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.nav-link a:hover {
+    color: #6ab6f0;
+}
+
+#download-btn {
+    margin-left: 10px; 
+}
+
+.english-img {
+    width: 100%;
+    padding-top: 15%;
+}
+
+/* Features */
+
+.features {
+    text-align: center;
+    padding: 7% 15%;
+    margin: 50px 0;
+}
+.feature-box {
+    margin: 0 0px;
+}
+
+.icons {
+    color: #1266a5;
+    margin-bottom: 1rem;
+}
+.icons:hover {
+    color: #063558;
+}
+
+/* Testimonial Section */
+.testimonials {
+    height: 70vh;
+    text-align: center;
+    background-color: #1266a5;
+    color: white;
+}
+
+.person img {
+    width: 15%;
+    border-radius: 100%;
+    display: block;
+    margin: 40px auto;
+}
+
+.person p {
+    color: white;
+}
+
+.carousel-item {
+    
+    padding: 6% 15%;
+}
+
+/* Pricing */
+
+.pricing {
+    padding: 9% 15%;
+    text-align: center;
+}
+
+.pricing button {
+    margin-top: 25px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA section */
+.cta {
+    text-align: center;
+    color: white;
+    background-color: #1266a5;
+    padding: 7% 15%;
+}
+.cta button {
+    margin: 25px;
+    font-size: 26px;
+    color: #063558;
+}
+.cta h2 {
+    font-size: 3.5rem;
+}
+
+.footer {
+    font-weight: 300;
+    text-align: center;
+    padding: 2% 15%;
+}
+
+@media (max-width: 991px) {
+    #navbarMenu {
+        text-align: right;
+    }
+    .feature-box {
+        margin-bottom: 5%;
+    }
+}
