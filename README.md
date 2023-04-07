@@ -4,6 +4,6 @@
 
 
 
-This is a landing page I built to practice. One of my first projects, in which I used HTML and CSS with Bootstrap. 
+This is a landing page I built to practice. The app doesn't really exist. It was one of my first projects, in which I used HTML and CSS with Bootstrap. 
 
 The page is responsive, and I used bootstrap cards and a slider.
